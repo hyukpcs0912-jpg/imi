@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ImageUploader } from './components/ImageUploader';
+import { ImageUploader } from './components/Imageuploader';
 import { Editor } from './components/Editor';
 import { AppState, GeneratedResult, AspectRatio } from './types';
 import { analyzeProductAndSuggest, generateProductBackground, fileToBase64 } from './services/geminiService';
